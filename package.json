@@ -1,0 +1,16 @@
+{
+  "name": "quickapp",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "test": "tape --require babel-register unit/test.js",
+    "build": "npm install"
+  },
+  "author": "self",
+  "license": "MIT",
+  "devDependencies": {
+    "babel-register": "^6.26.0",
+    "tape": "^4.8.0"
+  }
+}
